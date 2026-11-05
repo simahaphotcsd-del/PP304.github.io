@@ -116,35 +116,6 @@ main{padding:18px;max-width:1500px;margin:auto}.tab{display:none}.tab.active{dis
 /* v10: ปฏิทินเวรหน้า Dashboard */
 .calendar-controls{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.calendar-controls button,.calendar-controls input{min-height:36px;border:1px solid var(--line);border-radius:8px;background:#fff;padding:7px 10px}.duty-calendar{overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fff}.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(145px,1fr));min-width:1015px}.calendar-weekday{padding:8px;text-align:center;font-weight:700;background:#eef3f7;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.calendar-weekday:nth-child(7n){border-right:0}.calendar-day{min-height:150px;padding:7px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;cursor:pointer}.calendar-day:nth-child(7n){border-right:0}.calendar-day.outside{background:#f8fafc;color:#94a3b8}.calendar-day.selected{box-shadow:inset 0 0 0 2px var(--accent);background:#f5faff}.calendar-day.today .calendar-date{background:var(--accent);color:#fff}.calendar-date-row{display:flex;align-items:center;justify-content:space-between;gap:4px;margin-bottom:5px}.calendar-date{display:inline-flex;width:25px;height:25px;border-radius:50%;align-items:center;justify-content:center;font-weight:700}.calendar-inspections{font-size:11px;color:var(--muted);white-space:nowrap}.calendar-shift{font-size:11px;line-height:1.35;margin:3px 0;padding:3px 5px;border-radius:6px;white-space:normal;overflow:hidden}.calendar-shift b{display:inline-block;min-width:22px}.calendar-shift.shift1{background:#eef6ff}.calendar-shift.shift2{background:#eefaf2}.calendar-shift.shift3{background:#fff6e8}.calendar-no-duty{font-size:11px;color:#94a3b8;padding:4px 0}.calendar-legend{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--muted)}.calendar-legend span{display:flex;align-items:center;gap:5px}.legend-dot{width:10px;height:10px;border-radius:50%;display:inline-block}.legend-dot.shift1{background:#79aee5}.legend-dot.shift2{background:#78c391}.legend-dot.shift3{background:#e7ae57}
 
-
-/* การลา — ปฏิทินและแบบฟอร์ม */
-.leave-form label{flex:1 1 170px;min-width:160px}
-.leave-form .leave-note-field{flex:2 1 260px}
-.leave-form select,.leave-form input{width:100%;max-width:100%;color:var(--v15-text)}
-.leave-form #leavePersonnel{min-width:220px}
-.leave-summary-cards{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:16px}
-.leave-summary-cards .card{border-radius:14px}
-.leave-summary-cards .card strong{font-size:26px;margin:7px 0;color:#be185d}
-.leave-on-duty{display:block;margin-top:5px;padding:5px 6px;background:#fce7f3;color:#9d174d;border-radius:7px;font-size:11px;line-height:1.35;overflow-wrap:anywhere}
-.leave-on-duty strong{display:block;font-size:11px;margin-bottom:2px}
-.legend-dot.leave{background:#db2777}
-.leave-calendar-day{min-height:124px;cursor:pointer}
-.leave-calendar-day:hover{background:#f9f7ff}
-.leave-calendar-day .calendar-date{flex-shrink:0}
-.leave-calendar-item{display:block;margin:3px 0;padding:5px 6px;background:#fce7f3;color:#9d174d;border-left:3px solid #db2777;border-radius:4px;font-size:11px;line-height:1.3;overflow-wrap:anywhere}
-.leave-calendar-item .leave-type{font-weight:400;color:#a21caf}
-.leave-calendar-day.selected{box-shadow:inset 0 0 0 2px #db2777}
-.leave-more{font-size:11px;color:#9d174d;padding:3px 5px}
-.leave-day-detail{margin-top:14px}
-.leave-day-detail h3{margin:0 0 9px}
-.leave-day-detail .leave-calendar-item{font-size:13px;padding:9px 11px}
-.leave-actions{white-space:nowrap}
-.leave-actions button{margin:2px 3px 2px 0;padding:6px 9px;border-radius:7px;border:1px solid var(--v15-line);background:#f4f7fb}
-.leave-actions .delete-leave{background:#fff1f2;color:#b91c1c;border-color:#fecdd3}
-#leaves .panel{min-width:0}
-#police40[hidden],#a789[hidden]{display:none!important}
-@media(max-width:680px){.leave-summary-cards{grid-template-columns:1fr}.leave-form label{flex-basis:100%}.leave-form button{flex:1}.leave-calendar-day{min-height:110px}}
-
 /* v10: รายงาน อ.7 / อ.8 / อ.9 เชื่อมกับผลตรวจ POLICE 4.0 */
 .badge-report{display:inline-block;padding:7px 10px;border-radius:999px;background:#eef3f8;color:#456;font-size:12px}.badge-report.good{background:#e8f7ee;color:#17613d}.badge-report.warn{background:#fff4dd;color:#7b5317}.a789-panel{background:#dfe5ec;overflow:auto}.a789-report-paper{background:#fff;color:#000;margin:auto;min-width:1160px;padding:16px 18px 18px;box-shadow:0 2px 10px rgba(0,0,0,.12);font-family:"TH SarabunIT๙","TH Sarabun IT๙","TH SarabunIT9","TH Sarabun PSK","TH Sarabun New",Tahoma,sans-serif}.a789-title{text-align:center;font-weight:700;font-size:18pt;position:relative;line-height:1}.a789-code{position:absolute;right:0;top:0;font-weight:700}.a789-station{text-align:center;font-size:16pt;margin-top:2px;margin-bottom:7px}.a789-shift-title{font-weight:700;font-size:14pt;margin:7px 0 3px;text-align:left}.a789-report{width:100%;border-collapse:collapse;table-layout:fixed;font-family:inherit;font-size:11pt;line-height:1}.a789-report th,.a789-report td{border:1px solid #222;padding:2px 2px;height:23px;text-align:center;vertical-align:middle;background:#fff!important}.a789-report th:first-child,.a789-report td:first-child{width:102px;text-align:left;padding-left:5px}.a789-report th:nth-child(2),.a789-report td:nth-child(2){width:38px}.a789-report th:last-child,.a789-report td:last-child{width:58px}.a789-report .zero{color:#aaa}.a789-foot{font-size:12pt;margin-top:5px;color:#333}.a789-link-info{margin-top:8px;font-size:12px;color:var(--muted)}
 
@@ -218,8 +189,9 @@ main{max-width:none;margin:0 0 0 var(--sidebar-w);padding:102px 26px 34px}.tab{a
     <button data-tab="teams"><span class="nav-icon">♟</span><span>จัดชุดสายตรวจ</span></button>
     <button data-tab="masters"><span class="nav-icon">♚</span><span>กำลังพล / ตู้ยาม</span></button>
     <button data-tab="replacement"><span class="nav-icon">⇄</span><span>ใบแทนเวร</span></button>
-    <div class="sidebar-label">การจัดการวันลา</div>
-    <button data-tab="leaves"><span class="nav-icon">▦</span><span>การลา</span></button>
+    <div class="sidebar-label">รายงาน</div>
+    <button data-tab="police40"><span class="nav-icon">◎</span><span>POLICE 4.0</span></button>
+    <button data-tab="a789"><span class="nav-icon">◫</span><span>รายงาน อ.7 / อ.8 / อ.9</span></button>
     <div class="sidebar-label">ระบบ</div>
     <button data-tab="settings"><span class="nav-icon">⚙</span><span>ตั้งค่า / สำรองข้อมูล</span></button>
     <div class="sidebar-footer">
@@ -272,8 +244,8 @@ main{max-width:none;margin:0 0 0 var(--sidebar-w);padding:102px 26px 34px}.tab{a
       <div class="grid cards compact-stats">
         <div class="card stat-card"><span>เวรที่บันทึก</span><strong id="statSchedules">0</strong><small>รายการในฐานข้อมูล</small></div>
         <div class="card stat-card"><span>ใบแทนเวร</span><strong id="statReplacements">0</strong><small>รายการ</small></div>
-        <div class="card stat-card"><span>ผู้ลาวันนี้</span><strong id="statLeavesToday">0</strong><small>คน</small></div>
-        <div class="card stat-card"><span>กำลังพลพร้อมปฏิบัติ</span><strong id="statPersonnel">0</strong><small>นาย</small></div>
+        <div class="card stat-card"><span>ผลตรวจ POLICE 4.0</span><strong id="statInspections">0</strong><small>รายการ</small></div>
+        <div class="card stat-card"><span>จุดตรวจ</span><strong id="statPoints">0</strong><small>จุด</small></div>
       </div>
 
       <div class="dashboard-two-col">
@@ -281,7 +253,7 @@ main{max-width:none;margin:0 0 0 var(--sidebar-w);padding:102px 26px 34px}.tab{a
           <div class="panel-head">
             <div>
               <h2>ปฏิทินเวรสายตรวจ</h2>
-              <p class="hint">คลิกวันที่เพื่อเปลี่ยนวันใน Dashboard · <strong>สีชมพูคือรายการลา</strong></p>
+              <p class="hint">คลิกวันที่เพื่อเปลี่ยนวันใน Dashboard ด้านบน</p>
             </div>
             <div class="calendar-controls">
               <button id="calendarPrev" type="button">‹</button>
@@ -290,7 +262,7 @@ main{max-width:none;margin:0 0 0 var(--sidebar-w);padding:102px 26px 34px}.tab{a
             </div>
           </div>
           <div id="dutyCalendar" class="duty-calendar"><div class="empty">กำลังโหลดปฏิทิน…</div></div>
-          <div class="calendar-legend"><span><i class="legend-dot shift1"></i>ผลัด 1</span><span><i class="legend-dot shift2"></i>ผลัด 2</span><span><i class="legend-dot shift3"></i>ผลัด 3</span><span><i class="legend-dot leave"></i>การลา</span></div>
+          <div class="calendar-legend"><span><i class="legend-dot shift1"></i>ผลัด 1</span><span><i class="legend-dot shift2"></i>ผลัด 2</span><span><i class="legend-dot shift3"></i>ผลัด 3</span></div>
         </div>
         <div class="panel quick-detail-panel">
           <div class="panel-head"><div><h2>รายละเอียดทั้งวัน</h2><p class="hint">รายการเวรทุกผลัดของวันที่เลือก</p></div></div>
@@ -488,62 +460,7 @@ main{max-width:none;margin:0 0 0 var(--sidebar-w);padding:102px 26px 34px}.tab{a
       </div>
     </section>
 
-    <section id="leaves" class="tab">
-      <div class="panel">
-        <div class="panel-head">
-          <div>
-            <h2>การลา — บันทึกและตรวจสอบวันลา</h2>
-            <p class="hint">เลือกรายชื่อจากทะเบียนกำลังพลเดิม บันทึกช่วงวันที่ลา แล้วระบบแสดงชื่อบนปฏิทินทุกวันที่ลา</p>
-          </div>
-          <button id="btnLeaveRefresh" type="button" class="soft-btn">↻ รีเฟรชข้อมูลการลา</button>
-        </div>
-        <div class="form-row leave-form">
-          <label>เลือกกำลังพล <select id="leavePersonnel" required><option value="">— เลือกชื่อกำลังพล —</option></select></label>
-          <label>วันเริ่มลา <input id="leaveStart" type="date" required></label>
-          <label>วันสิ้นสุดลา <input id="leaveEnd" type="date" required></label>
-          <label>ประเภทการลา
-            <select id="leaveType" required>
-              <option value="">— เลือกประเภทการลา —</option>
-              <option value="ลาป่วย">ลาป่วย</option>
-              <option value="ลากิจส่วนตัว">ลากิจส่วนตัว</option>
-              <option value="ลาพักผ่อน">ลาพักผ่อน</option>
-              <option value="ลาคลอด">ลาคลอด</option>
-              <option value="ลาอุปสมบท">ลาอุปสมบท</option>
-              <option value="ลาไปประกอบพิธีฮัจย์">ลาไปประกอบพิธีฮัจย์</option>
-              <option value="ลาอื่น ๆ">ลาอื่น ๆ</option>
-            </select>
-          </label>
-          <label class="leave-note-field">หมายเหตุ (ถ้ามี) <input id="leaveNote" type="text" maxlength="250" placeholder="เช่น เลขที่ใบลา หรือรายละเอียด"></label>
-          <button id="btnSaveLeave" class="primary" type="button">+ บันทึกการลา</button>
-          <button id="btnCancelLeave" class="soft-btn hidden" type="button">ยกเลิกแก้ไข</button>
-        </div>
-        <p class="hint" id="leaveSyncNotice">รายการที่บันทึกจะเก็บในเครื่องนี้ และซิงก์กับ Google Sheet เมื่อเชื่อมต่อสำเร็จ</p>
-      </div>
-      <div class="grid leave-summary-cards">
-        <div class="card"><span>จำนวนคนลาวันนี้</span><strong id="leaveTodayCount">0</strong><small>ไม่ซ้ำรายชื่อ</small></div>
-        <div class="card"><span>จำนวนรายการลาทั้งหมด</span><strong id="leaveTotalCount">0</strong><small>รายการ</small></div>
-        <div class="card"><span>รายการที่อยู่ในเดือนที่เลือก</span><strong id="leaveMonthCount">0</strong><small>รายการ</small></div>
-      </div>
-      <div class="panel">
-        <div class="panel-head">
-          <div><h2>ปฏิทินการลา</h2><p class="hint">แสดงชื่อผู้ลาและประเภทการลาในแต่ละวัน · คลิกวันที่เพื่อดูรายละเอียด</p></div>
-          <div class="calendar-controls">
-            <button id="leaveCalendarPrev" type="button" aria-label="เดือนก่อนหน้า">‹</button>
-            <input id="leaveCalendarMonth" type="month" aria-label="เลือกเดือนปฏิทินการลา">
-            <button id="leaveCalendarNext" type="button" aria-label="เดือนถัดไป">›</button>
-          </div>
-        </div>
-        <div id="leaveCalendar" class="duty-calendar"><div class="empty">กำลังโหลดรายการลา…</div></div>
-        <div id="leaveDayDetail" class="leave-day-detail"></div>
-      </div>
-      <div class="panel">
-        <div class="panel-head"><h2>ทะเบียนรายการลา</h2><p class="hint">สามารถแก้ไขหรือลบรายการที่บันทึกไว้ได้</p></div>
-        <div id="leaveTable" class="table-wrap"></div>
-      </div>
-    </section>
-
-    <!-- โมดูลผลตรวจและรายงานเดิมเก็บไว้แบบซ่อน เพื่อรักษาความเข้ากันได้ของข้อมูลเดิม -->
-    <section id="police40" class="tab" hidden>
+    <section id="police40" class="tab">
       <div class="panel">
         <h2>นำเข้าผลตรวจ POLICE 4.0</h2>
         <div class="form-row">
@@ -580,7 +497,7 @@ main{max-width:none;margin:0 0 0 var(--sidebar-w);padding:102px 26px 34px}.tab{a
       </div>
     </section>
 
-    <section id="a789" class="tab" hidden>
+    <section id="a789" class="tab">
       <div class="panel">
         <div class="panel-head">
           <div>
@@ -670,13 +587,13 @@ const OFFICIAL_TEMPLATE_DOCX_BASE64='UEsDBBQABgAIAAAAIQC3D0gmsQEAAJ8IAAATAAgCW0N
 'use strict';
 
 const DB_NAME='SrimahaphoPatrolLocal';
-const DB_VER=5; // v5: เพิ่ม object store สำหรับรายการลา
+const DB_VER=4;
 const GOOGLE_SHEET_ID='1XzWdv_OYpAO6FIEF1V8tIlsVBLNfO7QPVRzYoo7RT1k';
 const GOOGLE_SHEET_URL='https://docs.google.com/spreadsheets/d/1XzWdv_OYpAO6FIEF1V8tIlsVBLNfO7QPVRzYoo7RT1k/edit';
 const GOOGLE_SYNC_TOKEN='PGaX68-46HXDyFphrDZEnJ3tpG4FArxTFHqzI4KDc_0';
 const IS_APPS_SCRIPT_WEBAPP=!!(globalThis.google&&google.script&&google.script.run);
 let googleWebAppUrl=IS_APPS_SCRIPT_WEBAPP?'':(localStorage.getItem('srimahaphoGoogleWebAppUrl')||'');
-const STORES=['settings','teamAssignments','schedules','replacements','inspectionPoints','inspections','seniorAssignments','postAssignments','personnel','personnelMovements','leaves'];
+const STORES=['settings','teamAssignments','schedules','replacements','inspectionPoints','inspections','seniorAssignments','postAssignments','personnel','personnelMovements'];
 let db;
 let importedRows=[];
 let summaryCache=[];
@@ -990,9 +907,6 @@ async function googleRequest(action,payload=null){
     if(action==='ping')j=await gasServerCall('apiPing');
     else if(action==='all')j=await gasServerCall('apiAll');
     else if(action==='replaceAll')j=await gasServerCall('apiReplaceAll',payload&&payload.data?payload.data:{});
-    else if(action==='saveLeave')j=await gasServerCall('apiUpsertLeave',payload?.leave);
-    else if(action==='deleteLeave')j=await gasServerCall('apiDeleteLeave',payload?.uid);
-    else if(action==='leaves')j=await gasServerCall('apiGetLeaves');
     else throw new Error('ไม่รู้จักคำสั่ง Google Sheet: '+action);
     if(!j||!j.ok)throw new Error((j&&j.error)||'Google Sheet ตอบกลับผิดพลาด');return j;
   }
@@ -1012,25 +926,18 @@ async function testGoogleSync(){
 async function pullGoogleSheet(silent=false){
   if(!silent&&!confirm('ดึงข้อมูลจาก Google Sheet มาแทนข้อมูลในเครื่องปัจจุบัน?\nข้อมูลในเครื่องจะถูกแทนที่ แต่ยังสามารถ Backup JSON ก่อนได้'))return;
   try{
-    cloudStatus('กำลังอัปเดตจาก Google Sheet…');$('dbBadge').textContent='กำลังอัปเดตข้อมูล…';await syncPendingLeaveChanges();const j=await googleRequest('all');const data=j.data||{};
-    const pending=(await getAll('leaves')).filter(x=>x.pendingSync);
-    const pendingDeletes=await pendingLeaveDeletes();
-    const toReplace=STORES.filter(st=>st!=='leaves'&&Array.isArray(data[st]));
-    await Promise.all(toReplace.map(st=>replaceStoreBatch(st,data[st])));
-    if(pendingDeletes.length)await storePendingLeaveDeletes(pendingDeletes);
-    if(Array.isArray(data.leaves))await replaceStoreBatch('leaves',mergeCloudLeaves(data.leaves,pending,pendingDeletes));
+    cloudStatus('กำลังอัปเดตจาก Google Sheet…');$('dbBadge').textContent='กำลังอัปเดตข้อมูล…';const j=await googleRequest('all');const data=j.data||{};
+    await Promise.all(STORES.filter(st=>Array.isArray(data[st])).map(st=>replaceStoreBatch(st,data[st])));
     if(Array.isArray(data.specialDuty))await applySpecialDutyCloudRows(data.specialDuty);else await loadSpecialDutySettings();
     cloudStatus(`อัปเดตสำเร็จ · ${j.updatedAt||''}`,'good');$('dbBadge').textContent='Online · Google Sheet';$('dbBadge').classList.add('ok');await loadOrderDefaults();await refreshAll();if(!silent)toast('ดึงข้อมูลจาก Google Sheet สำเร็จ');
     return true;
   }catch(e){console.error(e);cloudStatus(`ดึงข้อมูลไม่สำเร็จ: ${e.message}`,'bad');if(!silent)alert(e.message);return false}
 }
 async function pushGoogleSheet(){
-  if(!confirm('ซิงก์ข้อมูลเวรและกำลังพลขึ้น Google Sheet?\nข้อมูลเวรและกำลังพลในชีตจะถูกแทนด้วยข้อมูลจากเครื่องนี้ ส่วนการลาจะซิงก์เฉพาะรายการที่เพิ่ม/แก้ไข/ลบ ไม่เขียนทับการลาของผู้อื่น'))return;
+  if(!confirm('ซิงก์ข้อมูลในเครื่องขึ้น Google Sheet?\nข้อมูลในแต่ละแท็บของ Google Sheet จะถูกแทนด้วยข้อมูลปัจจุบันจากเว็บ'))return;
   try{
-    cloudStatus('กำลังซิงก์ข้อมูลขึ้น Google Sheet…');const data={};for(const st of STORES.filter(st=>st!=='leaves'))data[st]=await getAll(st);data.specialDuty=specialDutyCloudRows();
-    const j=await googleRequest('replaceAll',{data});const leavesOk=await syncPendingLeaveChanges();
-    cloudStatus(leavesOk?`ซิงก์ขึ้น Google Sheet สำเร็จ · ${j.updatedAt||''}`:'ข้อมูลเวรซิงก์แล้ว แต่รายการลาบางส่วนยังค้างซิงก์',leavesOk?'good':'warn');
-    toast(leavesOk?'ซิงก์ Google Sheet สำเร็จ':'ซิงก์เวรแล้ว · กรุณารีเฟรชรายการลา');
+    cloudStatus('กำลังซิงก์ข้อมูลขึ้น Google Sheet…');const data={};for(const st of STORES)data[st]=await getAll(st);data.specialDuty=specialDutyCloudRows();
+    const j=await googleRequest('replaceAll',{data});cloudStatus(`ซิงก์ขึ้น Google Sheet สำเร็จ · ${j.updatedAt||''}`,'good');toast('ซิงก์ Google Sheet สำเร็จ');
   }catch(e){console.error(e);cloudStatus(`ซิงก์ไม่สำเร็จ: ${e.message}`,'bad');alert(e.message)}
 }
 
@@ -1138,9 +1045,10 @@ async function renderDutyCalendar(){
   const input=$('calendarMonth');if(!input)return;
   if(!input.value){const d=parseISO($('dashboardDate')?.value||iso(new Date()));input.value=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`}
   const r=calendarMonthRange(input.value);if(!r)return;
-  const duties=await scheduleRows(r.start,r.end),leaves=(await getAll('leaves')).filter(x=>x.startDate<=r.end&&x.endDate>=r.start);
-  const dutyMap=new Map(),leaveMap=leaveMapForMonth(leaves,r.start,r.end);
+  const duties=await scheduleRows(r.start,r.end),inspections=(await getAll('inspections')).filter(x=>x.date>=r.start&&x.date<=r.end);
+  const dutyMap=new Map(),inspectionMap=new Map();
   for(const x of duties){if(!dutyMap.has(x.date))dutyMap.set(x.date,[]);dutyMap.get(x.date).push(x)}
+  for(const x of inspections)inspectionMap.set(x.date,(inspectionMap.get(x.date)||0)+1);
   const weekdays=['อา.','จ.','อ.','พ.','พฤ.','ศ.','ส.'];
   const first=parseISO(r.start),offset=first.getDay(),days=parseISO(r.end).getDate(),selected=$('dashboardDate')?.value||'';
   let html=`<div class="calendar-grid">${weekdays.map(x=>`<div class="calendar-weekday">${x}</div>`).join('')}`;
@@ -1155,8 +1063,7 @@ async function renderDutyCalendar(){
       const full=arr.map(x=>`${x.code} ${x.names}${x.vehicle?' รถ '+x.vehicle:''}`).join(' | ');
       return `<div class="calendar-shift shift${i+1}" title="${esc(full)}"><b>ผ${i+1}</b> ${esc(txt)}</div>`;
     }).join('');
-    const dayLeaves=leaveMap.get(date)||[];const leaveText=dayLeaves.length?`<div class="leave-on-duty" title="${esc(dayLeaves.map(x=>`${x.name} (${x.type})`).join(' | '))}"><strong>ลา ${dayLeaves.length} คน</strong>${esc(dayLeaves.slice(0,2).map(x=>shortDutyPerson(x.name)).join(' · '))}${dayLeaves.length>2?` และอีก ${dayLeaves.length-2} คน`:''}</div>`:'';
-    html+=`<div class="calendar-day${today?' today':''}${sel?' selected':''}" data-date="${date}"><div class="calendar-date-row"><span class="calendar-date">${day}</span></div>${rows.length?lines:'<div class="calendar-no-duty">ยังไม่มีเวร</div>'}${leaveText}</div>`;
+    html+=`<div class="calendar-day${today?' today':''}${sel?' selected':''}" data-date="${date}"><div class="calendar-date-row"><span class="calendar-date">${day}</span><span class="calendar-inspections">ตรวจ ${inspectionMap.get(date)||0}</span></div>${rows.length?lines:'<div class="calendar-no-duty">ยังไม่มีเวร</div>'}</div>`;
   }
   const totalCells=offset+days,next=(7-totalCells%7)%7;for(let i=1;i<=next;i++)html+=`<div class="calendar-day outside"><div class="calendar-date-row"><span class="calendar-date">${i}</span></div></div>`;
   html+='</div>';$('dutyCalendar').innerHTML=html;
@@ -1195,7 +1102,7 @@ async function renderDutySnapshot(){
 }
 
 async function renderDashboard(refreshCalendar=true){
-  $('statSchedules').textContent=(await getAll('schedules')).length;$('statReplacements').textContent=(await getAll('replacements')).length;const leaves=await getAll('leaves');$('statLeavesToday').textContent=new Set(leaves.filter(x=>x.startDate<=iso(new Date())&&x.endDate>=iso(new Date())).map(x=>x.name)).size;$('statPersonnel').textContent=(await activePersonnel()).length;
+  $('statSchedules').textContent=(await getAll('schedules')).length;$('statReplacements').textContent=(await getAll('replacements')).length;$('statInspections').textContent=(await getAll('inspections')).length;$('statPoints').textContent=(await getAll('inspectionPoints')).length;
   const d=$('dashboardDate').value||iso(new Date());$('dashboardDate').value=d;
   await renderDutySnapshot();
   const rs=await scheduleRows(d,d);$('todayDuty').innerHTML=rs.length?table(['ผลัด','เวลา','เขต','รหัส','ผู้ปฏิบัติจริง','รถ/ทะเบียน'],rs.map(r=>[r.shift,r.time,r.area,r.code,esc(r.names)+(r.replacement?' <span class="tag rep">แทนเวร</span>':''),esc(r.vehicle||'-')])):'<div class="empty">ยังไม่มีตารางเวรในวันที่เลือก</div>';
@@ -1218,7 +1125,7 @@ async function renderPersonnel(){
     x.active===false?'<span class="status-inactive">พ้น/ลดกำลังพล</span>':'<span class="status-active">ใช้งาน</span>',fmtThaiDate(x.joinedAt),esc(x.name),esc(x.position||'-'),esc(x.group||'-'),esc(x.post||'-'),x.endedAt?fmtThaiDate(x.endedAt):'-',x.reductionReason?`<span class="personnel-reason">${esc(x.reductionReason)}${x.reductionNote?' · '+esc(x.reductionNote):''}</span>`:'-',x.active===false?`<button onclick="restorePersonnel(${x.id})">คืนสถานะ</button>`:`<button onclick="prefillReducePersonnel(${x.id})">ลดกำลังพล</button>`
   ]));
   const current=await activePersonnel();
-  if($('personnelReduceId'))$('personnelReduceId').innerHTML=current.length?current.map(x=>`<option value="${x.id}">${esc(x.name)}${x.post?' · '+esc(x.post):''}${x.active===false?' (พ้นหน้าที่)':''}</option>`).join(''):'<option value="">ไม่มีกำลังพลที่ใช้งาน</option>';
+  if($('personnelReduceId'))$('personnelReduceId').innerHTML=current.length?current.map(x=>`<option value="${x.id}">${esc(x.name)}${x.post?' · '+esc(x.post):''}</option>`).join(''):'<option value="">ไม่มีกำลังพลที่ใช้งาน</option>';
   if($('activePersonnelList'))$('activePersonnelList').innerHTML=current.map(x=>`<option value="${esc(x.name)}">${esc([x.position,x.group,x.post].filter(Boolean).join(' · '))}</option>`).join('');
 }
 window.prefillReducePersonnel=async id=>{if($('personnelReduceId'))$('personnelReduceId').value=String(id);document.querySelectorAll('#personnelModeTabs button').forEach(b=>b.classList.toggle('active',b.dataset.mode==='reduce'));$('personnelAddBox').classList.add('hidden');$('personnelReduceBox').classList.remove('hidden');toast('เลือกกำลังพลสำหรับลดกำลังแล้ว')};
@@ -1612,143 +1519,7 @@ function officialStandalone(body,title='คำสั่งเวรสายต�
   </style></head><body>${body}</body></html>`;
 }
 
-// ====== การลา: IndexedDB + Google Sheet ======
-let selectedLeaveDate='';
-function leaveUID(){return (globalThis.crypto&&crypto.randomUUID)?crypto.randomUUID():`leave-${Date.now()}-${Math.random().toString(36).slice(2)}`}
-function validLeaveDate(value){return /^\d{4}-\d{2}-\d{2}$/.test(String(value||''))&&!Number.isNaN(parseISO(value).getTime())&&iso(parseISO(value))===value}
-function cleanLeaveForCloud(x){const {id,pendingSync,...payload}=x;return payload}
-function leaveMapForMonth(rows,start,end){
-  const out=new Map();for(const leave of rows){if(!validLeaveDate(leave.startDate)||!validLeaveDate(leave.endDate)||leave.startDate>leave.endDate)continue;
-    for(let d=leave.startDate>start?leave.startDate:start;d<=(leave.endDate<end?leave.endDate:end);d=addDays(d,1)){
-      if(!out.has(d))out.set(d,[]);out.get(d).push(leave);
-    }
-  }
-  for(const a of out.values())a.sort((x,y)=>String(x.name).localeCompare(String(y.name),'th'));
-  return out;
-}
-async function pendingLeaveDeletes(){try{const a=JSON.parse(await setting('pendingLeaveDeletes','[]'));return Array.isArray(a)?a:[]}catch{return []}}
-async function storePendingLeaveDeletes(a){await saveSetting('pendingLeaveDeletes',JSON.stringify([...new Set(a)]))}
-function mergeCloudLeaves(cloud,pending,deletes){
-  const data=new Map();const deleted=new Set(deletes);
-  for(const record of cloud||[]){if(record.uid&&!deleted.has(record.uid))data.set(record.uid,{...record})}
-  for(const record of pending||[]){if(record.uid&&!deleted.has(record.uid))data.set(record.uid,{...record})}
-  return [...data.values()].map(record=>{const r={...record};delete r.id;return r});
-}
-async function syncPendingLeaveChanges(){
-  if(!IS_APPS_SCRIPT_WEBAPP&&!googleWebAppUrl)return false;
-  let success=true,deleted=await pendingLeaveDeletes(),remain=[];
-  for(const uid of deleted){try{await googleRequest('deleteLeave',{uid})}catch(e){success=false;remain.push(uid);console.warn('ลบรายการลาบนคลาวด์ไม่สำเร็จ',e)}}
-  if(remain.length!==deleted.length)await storePendingLeaveDeletes(remain);
-  for(const x of (await getAll('leaves')).filter(x=>x.pendingSync)){
-    try{await googleRequest('saveLeave',{leave:cleanLeaveForCloud(x)});x.pendingSync=false;await put('leaves',x)}
-    catch(e){success=false;console.warn('ซิงก์รายการลาไม่สำเร็จ',e)}
-  }
-  return success;
-}
-function leaveStatus(msg,kind=''){
-  const el=$('leaveSyncNotice');if(!el)return;el.textContent=msg;el.style.color=kind==='bad'?'#b91c1c':kind==='good'?'#15803d':'';
-}
-async function refreshLeaveFromCloud(){
-  if(!IS_APPS_SCRIPT_WEBAPP&&!googleWebAppUrl){await renderLeaves();return toast('ยังไม่ได้เชื่อม Google Sheet · แสดงข้อมูลที่บันทึกไว้ในเครื่อง')}
-  try{leaveStatus('กำลังอัปเดตรายการลาจาก Google Sheet…');await syncPendingLeaveChanges();
-    const cloud=await googleRequest('leaves');const pending=(await getAll('leaves')).filter(x=>x.pendingSync);
-    await replaceStoreBatch('leaves',mergeCloudLeaves(cloud.data||[],pending,await pendingLeaveDeletes()));
-    leaveStatus('ข้อมูลการลาล่าสุดจาก Google Sheet พร้อมใช้งาน','good');await renderLeaves();await renderDashboard();toast('รีเฟรชรายการลาสำเร็จ');
-  }catch(e){console.error(e);leaveStatus('ดึงข้อมูลการลาจาก Google Sheet ไม่สำเร็จ: '+e.message,'bad');await renderLeaves()}
-}
-async function populateLeavePersonnel(){
-  const el=$('leavePersonnel');if(!el)return;const last=el.value;
-  const persons=(await getAll('personnel')).filter(x=>String(x.name||'').trim()).sort((a,b)=>String(a.name).localeCompare(String(b.name),'th'));
-  el.innerHTML='<option value="">— เลือกชื่อกำลังพล —</option>'+persons.map(x=>`<option value="${esc(String(x.id))}">${esc(x.name)}${x.post?' · '+esc(x.post):''}${x.active===false?' (พ้นหน้าที่)':''}</option>`).join('');
-  if(persons.some(x=>String(x.id)===last))el.value=last;
-}
-function resetLeaveForm(){
-  $('btnSaveLeave').dataset.id='';$('btnSaveLeave').textContent='+ บันทึกการลา';$('btnCancelLeave').classList.add('hidden');
-  $('leavePersonnel').value='';$('leaveStart').value=iso(new Date());$('leaveEnd').value=iso(new Date());$('leaveType').value='';$('leaveNote').value='';
-}
-async function saveLeave(){
-  const id=Number($('btnSaveLeave').dataset.id)||null,personnelId=Number($('leavePersonnel').value);
-  const startDate=$('leaveStart').value,endDate=$('leaveEnd').value,type=$('leaveType').value,note=$('leaveNote').value.trim();
-  const people=await getAll('personnel'),person=people.find(x=>Number(x.id)===personnelId);
-  if(!person)return alert('กรุณาเลือกชื่อจากฐานข้อมูลกำลังพล');
-  if(!validLeaveDate(startDate)||!validLeaveDate(endDate)||startDate>endDate)return alert('กรุณาเลือกช่วงวันที่ลาให้ถูกต้อง');
-  if(!type)return alert('กรุณาเลือกประเภทการลา');
-  const records=await getAll('leaves'),old=id?records.find(x=>x.id===id):null;
-  if(id&&!old)return alert('ไม่พบรายการลาที่ต้องการแก้ไข');
-  const overlap=records.find(x=>x.id!==id&&(x.personnelId===personnelId||x.name===person.name)&&startDate<=x.endDate&&endDate>=x.startDate);
-  if(overlap)return alert(`มีวันลาของ ${person.name} ซ้อนกับรายการเดิม (${fmtThaiDate(overlap.startDate)} – ${fmtThaiDate(overlap.endDate)}) กรุณาแก้ไขรายการเดิม`);
-  const now=new Date().toISOString();
-  const item={...(old||{}),uid:old?.uid||leaveUID(),personnelId,name:person.name,startDate,endDate,type,note,createdAt:old?.createdAt||now,updatedAt:now,pendingSync:true};
-  if(old)await put('leaves',item);else item.id=await add('leaves',item);
-  resetLeaveForm();await renderLeaves();await renderDashboard();
-  if(IS_APPS_SCRIPT_WEBAPP||googleWebAppUrl){
-    try{await googleRequest('saveLeave',{leave:cleanLeaveForCloud(item)});item.pendingSync=false;await put('leaves',item);leaveStatus('บันทึกรายการลาในเครื่องและ Google Sheet แล้ว','good');toast('บันทึกรายการลาและซิงก์แล้ว')}
-    catch(e){console.error(e);leaveStatus('บันทึกในเครื่องแล้ว แต่ซิงก์ Google Sheet ไม่สำเร็จ · กดรีเฟรชเมื่อเชื่อมต่อได้: '+e.message,'bad');toast('บันทึกในเครื่องแล้ว · รอซิงก์ Google Sheet')}
-  }else{leaveStatus('บันทึกการลาในเครื่องแล้ว · ตั้งค่า Apps Script เพื่อซิงก์ให้ผู้ใช้งานอื่นเห็น');toast('บันทึกการลาในเครื่องแล้ว')}
-}
-window.editLeave=async id=>{
-  const rec=(await getAll('leaves')).find(x=>x.id===id);if(!rec)return;
-  await populateLeavePersonnel();$('leavePersonnel').value=String(rec.personnelId||'');
-  if(!$('leavePersonnel').value&&rec.name){const ps=await getAll('personnel'),found=ps.find(x=>x.name===rec.name);if(found)$('leavePersonnel').value=String(found.id)}
-  $('leaveStart').value=rec.startDate;$('leaveEnd').value=rec.endDate;$('leaveType').value=rec.type;$('leaveNote').value=rec.note||'';
-  $('btnSaveLeave').dataset.id=String(rec.id);$('btnSaveLeave').textContent='บันทึกการแก้ไข';$('btnCancelLeave').classList.remove('hidden');
-  $('leavePersonnel').focus();window.scrollTo({top:0,behavior:'smooth'});
-};
-window.deleteLeave=async id=>{
-  const rec=(await getAll('leaves')).find(x=>x.id===id);if(!rec)return;
-  if(!confirm(`ลบการลา ${rec.name} (${fmtThaiDate(rec.startDate)} – ${fmtThaiDate(rec.endDate)}) ?`))return;
-  await storePendingLeaveDeletes([...(await pendingLeaveDeletes()),rec.uid]);await del('leaves',id);
-  if(Number($('btnSaveLeave').dataset.id)===id)resetLeaveForm();await renderLeaves();await renderDashboard();
-  if(IS_APPS_SCRIPT_WEBAPP||googleWebAppUrl){
-    try{await googleRequest('deleteLeave',{uid:rec.uid});await storePendingLeaveDeletes((await pendingLeaveDeletes()).filter(v=>v!==rec.uid));leaveStatus('ลบรายการลาในเครื่องและ Google Sheet แล้ว','good');toast('ลบรายการลาแล้ว')}
-    catch(e){console.error(e);leaveStatus('ลบรายการในเครื่องแล้ว แต่ยังลบใน Google Sheet ไม่สำเร็จ · กดรีเฟรชเพื่อซิงก์ซ้ำ','bad');toast('ลบในเครื่องแล้ว · รอซิงก์ Google Sheet')}
-  }else{leaveStatus('ลบรายการลาในเครื่องแล้ว · ยังไม่ได้เชื่อม Google Sheet');toast('ลบรายการลาในเครื่องแล้ว')}
-};
-async function renderLeaveCalendar(rows){
-  const month=$('leaveCalendarMonth')?.value,r=calendarMonthRange(month);if(!r)return;
-  const map=leaveMapForMonth(rows,r.start,r.end),today=iso(new Date());
-  $('leaveMonthCount').textContent=rows.filter(x=>x.startDate<=r.end&&x.endDate>=r.start).length;
-  const weekdays=['อา.','จ.','อ.','พ.','พฤ.','ศ.','ส.'];
-  let html=`<div class="calendar-grid">${weekdays.map(x=>`<div class="calendar-weekday">${x}</div>`).join('')}`;
-  const offset=parseISO(r.start).getDay(),days=parseISO(r.end).getDate(),last=new Date(r.year,r.month,0).getDate();
-  for(let i=0;i<offset;i++)html+=`<div class="calendar-day outside"><div class="calendar-date-row"><span class="calendar-date">${last-offset+i+1}</span></div></div>`;
-  for(let day=1;day<=days;day++){
-    const d=iso(new Date(r.year,r.month,day)),list=map.get(d)||[];
-    html+=`<div class="calendar-day leave-calendar-day${d===today?' today':''}${d===selectedLeaveDate?' selected':''}" data-date="${d}"><div class="calendar-date-row"><span class="calendar-date">${day}</span>${list.length?`<span class="calendar-inspections">ลา ${list.length} คน</span>`:''}</div>`;
-    html+=list.slice(0,4).map(x=>`<div class="leave-calendar-item" title="${esc(x.name+' · '+x.type)}">${esc(x.name)}<div class="leave-type">${esc(x.type)}</div></div>`).join('');
-    if(list.length>4)html+=`<div class="leave-more">+ อีก ${list.length-4} คน (คลิกดู)</div>`;
-    html+='</div>';
-  }
-  for(let i=1,n=(7-(offset+days)%7)%7;i<=n;i++)html+=`<div class="calendar-day outside"><div class="calendar-date-row"><span class="calendar-date">${i}</span></div></div>`;
-  $('leaveCalendar').innerHTML=html+'</div>';
-  $('leaveCalendar').querySelectorAll('[data-date]').forEach(el=>el.onclick=async()=>{selectedLeaveDate=el.dataset.date;await renderLeaveCalendar(await getAll('leaves'))});
-  const selected=selectedLeaveDate&&selectedLeaveDate>=r.start&&selectedLeaveDate<=r.end?selectedLeaveDate:((today>=r.start&&today<=r.end)?today:r.start);
-  selectedLeaveDate=selected;
-  $('leaveCalendar').querySelectorAll('[data-date]').forEach(el=>el.classList.toggle('selected',el.dataset.date===selected));
-  const selectedList=map.get(selected)||[];
-  $('leaveDayDetail').innerHTML=`<h3>ผู้ลาในวันที่ ${fmtThaiDate(selected)} (${selectedList.length} คน)</h3>`+(selectedList.length?selectedList.map(x=>`<div class="leave-calendar-item"><strong>${esc(x.name)}</strong> · ${esc(x.type)}${x.note?' · '+esc(x.note):''}</div>`).join(''):'<div class="empty">ไม่มีผู้ลาวันนี้</div>');
-}
-async function renderLeaves(){
-  if(!$('leaveTable'))return;const rows=await getAll('leaves');
-  await populateLeavePersonnel();const today=iso(new Date());
-  $('leaveTodayCount').textContent=new Set(rows.filter(x=>x.startDate<=today&&x.endDate>=today).map(x=>x.name)).size;
-  $('leaveTotalCount').textContent=rows.length;
-  await renderLeaveCalendar(rows);
-  rows.sort((a,b)=>b.startDate.localeCompare(a.startDate)||String(a.name).localeCompare(String(b.name),'th'));
-  $('leaveTable').innerHTML=rows.length?table(['กำลังพล','เริ่มลา','ถึงวันที่','ประเภทการลา','หมายเหตุ','จัดการ'],rows.map(x=>[
-    esc(x.name),fmtThaiDate(x.startDate),fmtThaiDate(x.endDate),`<span class="tag rep">${esc(x.type)}</span>${x.pendingSync?' <span class="tag">รอซิงก์</span>':''}`,esc(x.note||'-'),`<span class="leave-actions"><button type="button" onclick="editLeave(${Number(x.id)})">แก้ไข</button><button type="button" class="delete-leave" onclick="deleteLeave(${Number(x.id)})">ลบ</button></span>`
-  ])):'<div class="empty">ยังไม่มีรายการลา · กรอกข้อมูลด้านบนเพื่อเพิ่มรายการ</div>';
-}
-function initLeaveControls(){
-  $('btnSaveLeave').onclick=saveLeave;$('btnCancelLeave').onclick=resetLeaveForm;
-  $('btnLeaveRefresh').onclick=refreshLeaveFromCloud;
-  const moveMonth=delta=>{const r=calendarMonthRange($('leaveCalendarMonth').value);if(!r)return;const dt=new Date(r.year,r.month+delta,1);$('leaveCalendarMonth').value=`${dt.getFullYear()}-${String(dt.getMonth()+1).padStart(2,'0')}`;selectedLeaveDate='';renderLeaves()};
-  $('leaveCalendarPrev').onclick=()=>moveMonth(-1);$('leaveCalendarNext').onclick=()=>moveMonth(1);
-  $('leaveCalendarMonth').onchange=()=>{selectedLeaveDate='';renderLeaves()};
-  $('leaveStart').onchange=()=>{if($('leaveEnd').value<$('leaveStart').value)$('leaveEnd').value=$('leaveStart').value};
-}
-
-async function refreshAll(){await renderDashboard();await renderTeams();await renderPersonnel();await renderLeaves();await renderSeniorAssignments();await renderPostAssignments();await renderReps();await renderPoints();await renderPreview();await renderSchedule();$('anchorDate').value=await setting('anchorDate',BASE_ROSTER_DATE);if($('orderStart')?.value&&$('orderEnd')?.value)await renderOfficialOrder()}
+async function refreshAll(){await renderDashboard();await renderTeams();await renderPersonnel();await renderSeniorAssignments();await renderPostAssignments();await renderReps();await renderPoints();await renderPreview();await renderSchedule();$('anchorDate').value=await setting('anchorDate',BASE_ROSTER_DATE);if($('orderStart')?.value&&$('orderEnd')?.value)await renderOfficialOrder()}
 
 
 // ---------- รายงาน อ.7 / อ.8 / อ.9 (ใช้ข้อมูล inspections ชุดเดียวกับ POLICE 4.0) ----------
@@ -1807,13 +1578,12 @@ async function exportA789Jpg(){
 
 function initControls(){
   const today=iso(new Date());const td=parseISO(today);const start=iso(new Date(td.getFullYear(),td.getMonth(),td.getDate()<=15?1:16));const end=td.getDate()<=15?iso(new Date(td.getFullYear(),td.getMonth(),15)):iso(new Date(td.getFullYear(),td.getMonth()+1,0));
-  ['dashboardDate','a789Date','genStart','schStart','sumStart','repDate','teamEffective','seniorEffective','postEffective','personnelStart','personnelEnd','leaveStart','leaveEnd','orderStart'].forEach(id=>$(id).value=id==='dashboardDate'||id==='a789Date'||id==='repDate'||id==='teamEffective'||id==='seniorEffective'||id==='postEffective'||id==='personnelStart'||id==='personnelEnd'||id==='leaveStart'||id==='leaveEnd'?today:start);
+  ['dashboardDate','a789Date','genStart','schStart','sumStart','repDate','teamEffective','seniorEffective','postEffective','personnelStart','personnelEnd','orderStart'].forEach(id=>$(id).value=id==='dashboardDate'||id==='a789Date'||id==='repDate'||id==='teamEffective'||id==='seniorEffective'||id==='postEffective'||id==='personnelStart'||id==='personnelEnd'?today:start);
   if($('calendarMonth'))$('calendarMonth').value=`${td.getFullYear()}-${String(td.getMonth()+1).padStart(2,'0')}`;
-  if($('leaveCalendarMonth'))$('leaveCalendarMonth').value=`${td.getFullYear()}-${String(td.getMonth()+1).padStart(2,'0')}`;
   if($('dashboardShift'))$('dashboardShift').value=String(currentShiftNow());
   ['genEnd','schEnd','sumEnd','orderEnd'].forEach(id=>$(id).value=end);
   const teamOpts=[...Array.from({length:4},(_,i)=>`20-${i+1}`),...Array.from({length:8},(_,i)=>String(121+i)),...Array.from({length:4},(_,i)=>`304-${i+1}`)];$('teamCode').innerHTML=teamOpts.map(x=>`<option>${x}</option>`).join('');$('repCode').innerHTML=allCodes.map(x=>`<option>${x}</option>`).join('');
-  document.querySelectorAll('#tabs button').forEach(b=>b.onclick=async()=>{document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.tab).classList.add('active');if(b.dataset.tab==='dashboard')await renderDashboard();if(b.dataset.tab==='leaves')await renderLeaves()});
+  document.querySelectorAll('#tabs button').forEach(b=>b.onclick=async()=>{document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.tab).classList.add('active');if(b.dataset.tab==='dashboard')await renderDashboard();if(b.dataset.tab==='a789'&&$('a789Date')?.value)await makeA789Report()});
   $('genStart').onchange=renderPreview;$('genEnd').onchange=renderPreview;$('dashboardDate').onchange=async()=>{const d=parseISO($('dashboardDate').value);if($('calendarMonth'))$('calendarMonth').value=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;await renderDashboard()};
   if($('dashboardShift'))$('dashboardShift').onchange=()=>renderDashboard(false);
   if($('btnDashboardToday'))$('btnDashboardToday').onclick=async()=>{$('dashboardDate').value=iso(new Date());await renderDashboard()};
@@ -1839,7 +1609,6 @@ function initControls(){
   $('btnSaveRep').onclick=async()=>{const o={date:$('repDate').value,shift:+$('repShift').value,code:$('repCode').value,original:$('repOriginal').value.trim(),substitute:$('repSubstitute').value.trim(),reason:$('repReason').value.trim(),vehicle:$('repVehicle').value.trim(),createdAt:new Date().toISOString()};if(!o.date||!o.original||!o.substitute)return alert('กรอกวันที่ เจ้าของเวรเดิม และผู้แทน');await add('replacements',o);toast('บันทึกใบแทนเวรแล้ว');$('repVehicle').value='';renderReps();renderDashboard()};
   const suggestRepVehicle=async()=>{if(!$('repDate').value||!$('repCode').value)return;const v=await vehicleForDutyCode($('repDate').value,+$('repShift').value,$('repCode').value);if(!$('repVehicle').value)$('repVehicle').placeholder=v?`รถของชุดเดิม ${v}`:'ปล่อยว่าง = ใช้รถของชุดเดิม';};
   $('repDate').onchange=suggestRepVehicle;$('repShift').onchange=suggestRepVehicle;$('repCode').onchange=suggestRepVehicle;suggestRepVehicle();
-  initLeaveControls();
   $('btnReadInspection').onclick=readInspectionFile;$('btnImportMapped').onclick=importMapped;$('btnClearInspections').onclick=async()=>{if(confirm('ล้างผลตรวจ POLICE 4.0 ทั้งหมด?')){await clearStore('inspections');summaryCache=[];$('summaryTable').innerHTML='';renderDashboard()}};
   $('btnSavePoint').onclick=async()=>{const o={name:$('pointName').value.trim(),type:$('pointType').value,code:$('pointCode').value.trim(),zone:$('pointZone').value.trim(),pointOrder:$('pointOrder').value.trim()};if(!o.name)return;await add('inspectionPoints',o);$('pointName').value='';$('pointZone').value='';$('pointOrder').value='';toast('บันทึกจุดตรวจแล้ว');renderPoints();renderDashboard()};
   $('btnSummary').onclick=buildSummary;$('btnExportSummary').onclick=()=>{if(!summaryCache.length)return toast('สรุปผลก่อน');download('police40-summary.csv',csv([['วันที่','ผลัด','รหัสสายตรวจ','ชื่อตรวจและคู่ตรวจ','จุดหลัก','จุดรอง','อื่น/ไม่ระบุ','รวม'],...summaryCache.map(g=>[g.date,g.shift,g.code,g.names,g.main,g.sub,g.other,g.total])]),'text/csv;charset=utf-8')};
